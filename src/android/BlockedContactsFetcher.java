@@ -19,7 +19,7 @@ public class BlockedContactsFetcher extends CordovaPlugin {
                 this.fetchBlockedContacts(callbackContext);
                 return true;
             default: 
-                return false;
+                return true;
         }
         return false;
     }
