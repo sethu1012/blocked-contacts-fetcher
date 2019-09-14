@@ -1,4 +1,4 @@
-package true;
+package blockedcontactsfetcher;
 
 public class AppConstants {
 

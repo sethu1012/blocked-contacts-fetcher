@@ -9,10 +9,10 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="BlockedContactsFetcher">
-                <param name="android-package" value="true.BlockedContactsFetcher" />
+                <param name="android-package" value="blockedcontactsfetcher.BlockedContactsFetcher" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/BlockedContactsFetcher.java" target-dir="src/true/BlockedContactsFetcher" />
+        <source-file src="src/android/BlockedContactsFetcher.java" target-dir="src/blockedcontactsfetcher/BlockedContactsFetcher" />
     </platform>
 </plugin>
