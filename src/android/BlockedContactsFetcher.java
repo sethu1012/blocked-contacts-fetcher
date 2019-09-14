@@ -16,7 +16,7 @@ public class BlockedContactsFetcher extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         switch (action) {
             case AppConstants.FETCH_BLOCKED_CONTACTS: 
-                this.fetchBlockedContacts();
+                this.fetchBlockedContacts(callbackContext);
                 return true;
             default: 
                 return false;
