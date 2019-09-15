@@ -4,7 +4,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>BlockedContactsFetcher</name>
     <js-module name="BlockedContactsFetcher" src="www/BlockedContactsFetcher.js">
-        <clobbers target="cordova.plugins.BlockedContactsFetcher" />
+        <!-- <clobbers target="cordova.plugins.BlockedContactsFetcher" /> -->
+        <clobbers target="bcFetcher" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
